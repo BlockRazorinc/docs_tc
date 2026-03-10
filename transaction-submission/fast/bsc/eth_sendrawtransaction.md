@@ -1,0 +1,71 @@
+# eth\_sendRawTransaction
+
+### 介紹
+
+Fast模式基於BlockRazor的全球高性能網絡實現交易最低延遲上鏈，適合對交易上鏈速度存在極致要求的用戶。相比[Send RawTx](send-rawtx.md) ，Fast模式的交易不會通過mempool廣播，在確保速度的同時具備隱私性。Fast模式的交易發送方法和`eth_sendRawTransaction`兼容。
+
+{% hint style="info" %}
+Fast模式不和訂閱計劃綁定，但每筆交易中需要包含轉賬至0x9D70AC39166ca154307a93fa6b595CF7962fe8e5的tip，金額至少為0.000025 BNB 或 Transaction Fee \* 0.05 BNB的較大者
+{% endhint %}
+
+
+
+### 端點
+
+http://bsc-fast.blockrazor.io
+
+
+
+### 限流
+
+Fast模式不和訂閱計劃綁定，限流默認統一為10 TPS，如需提升TPS，請於我們聯繫
+
+
+
+### 請求示例
+
+```json
+curl http://bsc-fast.blockrazor.io \
+  -X POST \
+  -H "Authorization: Bearer <auth>" \
+  -H "Content-Type: application/json" \
+  --data '
+    {
+    "jsonrpc": "2.0",
+    "method": "eth_sendRawTransaction",
+    "params": [
+      "Signed Transaction"
+    ],
+    "id": 1
+  }
+  '
+```
+
+
+
+### 返回示例
+
+**正常**
+
+```json
+{
+ "jsonrpc":"2.0",
+ "id":"1",
+ "result":"0xa06b……f7e8ec"  // 交易哈希
+}‍
+```
+
+
+
+**異常**
+
+```json
+{
+  "jsonrpc":"2.0",
+  "id":"1",
+  "error":{
+    "code":-32000,
+    "message":"Tip verification failed"
+    }
+}
+```

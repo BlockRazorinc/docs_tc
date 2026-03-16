@@ -2,7 +2,7 @@
 
 ### 快速開始
 
-請參考[README.md](https://github.com/BlockRazorinc/gesyerstream-client-go/blob/main/README.md)
+請參考[README.md](https://github.com/BlockRazorinc/geyserstream-client-go/blob/main/README.md)
 
 
 

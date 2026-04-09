@@ -3,7 +3,7 @@
 ## 介紹
 
 {% hint style="warning" %}
-Solana發送交易的服務不和訂閱計劃綁定，可前往 [Authentication](../../../authentication.md) 獲取API KEY，默认限流为1 TPS。如需提升限流標準，請[聯繫](https://discord.com/invite/qqJuwRb8Nh)我們，我們會在第一時間處理
+Solana發送交易的服務不和訂閱計劃綁定，可前往 [Authentication](../../../authentication.md) 獲取API KEY，默认限流为3 TPS。如需提升限流標準，請[聯繫](https://discord.com/invite/qqJuwRb8Nh)我們，我們會在第一時間處理
 {% endhint %}
 
 `Send Transaction` 用於在Solana上發送已簽名的交易，支持HTTP協議。與傳統的發送交易 (Send Transaction) 方式相比，它提供了一種更精簡、更迅速的交易提交途徑。
@@ -33,7 +33,7 @@ Solana發送交易的服務不和訂閱計劃綁定，可前往 [Authentication]
 ## 流控說明
 
 {% hint style="info" %}
-Solana發送交易的服務不和訂閱計劃綁定，可前往 [Authentication](../../../authentication.md) 獲取API KEY，默认限流为1 TPS。如需提升限流標準，請[聯繫](https://discord.com/invite/qqJuwRb8Nh)我們，我們會在第一時間處理
+Solana發送交易的服務不和訂閱計劃綁定，可前往 [Authentication](../../../authentication.md) 獲取API KEY，默认限流为3 TPS。如需提升限流標準，請[聯繫](https://discord.com/invite/qqJuwRb8Nh)我們，我們會在第一時間處理
 {% endhint %}
 
 
@@ -74,7 +74,7 @@ Priority Fee是Solana在Base Fee（發送交易的最低成本，交易中每包
 
 ## Tip
 
-在構建交易時，需在交易中添加Tip轉賬指令（建議將Tip指令放在靠前位置），用於進一步加速交易上鍊。BlockRazor不從Tip中收取服務費。Tip指令轉賬金額至少為1,000,000 Lamports（0.001 Sol），建議將Tip置為[`getTransactionfee`](../../../streams/network-fee-stream/solana/get-transactionfee.md)返回的推薦值，接收Tip的账户地址為：
+在構建交易時，需在交易中添加Tip轉賬指令（建議將Tip指令放在靠前位置），用於進一步加速交易上鍊。BlockRazor不從Tip中收取服務費。Tip指令轉賬金額至少為100,000 Lamports（0.0001 Sol），建議將Tip置為[`getTransactionfee`](../../../streams/network-fee-stream/solana/get-transactionfee.md)返回的推薦值，接收Tip的账户地址為：
 
 ```
 "FjmZZrFvhnqqb9ThCuMVnENaM3JGVuGWNyCAxRJcFpg9",

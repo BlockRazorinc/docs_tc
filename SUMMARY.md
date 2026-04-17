@@ -35,6 +35,7 @@
     * [Send Transaction v2](transaction-submission/fast/solana/send-transaction-v2.md)
   * [BSC](transaction-submission/fast/bsc/README.md)
     * [eth\_sendRawTransaction](transaction-submission/fast/bsc/eth_sendrawtransaction.md)
+    * [eth\_sendRawTransaction v2](transaction-submission/fast/bsc/eth_sendrawtransaction-v2.md)
     * [Send RawTx](transaction-submission/fast/bsc/send-rawtx.md)
     * [Send RawTxBatch](transaction-submission/fast/bsc/send-rawtxbatch.md)
   * [Sui](transaction-submission/fast/sui/README.md)

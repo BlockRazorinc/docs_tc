@@ -18,7 +18,7 @@ http://bsc-fast.blockrazor.io
 
 ### 限流
 
-Fast模式不和訂閱計劃綁定，限流默認統一為10 TPS，如需提升TPS，請於我們聯繫
+`eth_sendRawTransaction`不和訂閱計劃綁定，限流默認統一為10 TPS，如需提升TPS，請於我們聯繫
 
 
 

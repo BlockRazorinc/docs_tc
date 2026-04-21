@@ -75,3 +75,20 @@ Priority Fee是Solana在Base Fee（發送交易的最低成本，交易中每包
 為盡量避免因地址佔用引起交易處理性能下降，導致交易延遲，請盡量在發交易時輪換Tip賬戶地址。
 {% endhint %}
 
+
+
+### Keep Alive
+
+請發送 POST 請求到健康檢查端點以保持連線活躍，請求示例如下：
+
+{% tabs %}
+{% tab title="CURL" %}
+```bash
+curl -X POST 'http://frankfurt.solana.blockrazor.xyz:443/health' \
+-H "Content-Type: application/json" \
+-H "apikey: <auth_token>" \
+-d ""
+```
+{% endtab %}
+{% endtabs %}
+

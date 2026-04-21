@@ -72,3 +72,19 @@ curl -X POST 'bsc-fast.blockrazor.io/v2/sendRawTransaction?auth=<auth_token>'
 }
 ```
 
+
+
+### Keep Alive
+
+請發送 POST 請求到健康檢查端點以保持連線活躍，建議每隔10s請求一次，請求示例如下：
+
+{% tabs %}
+{% tab title="CURL" %}
+```bash
+curl -X POST 'http://bsc-fast.blockrazor.io/health' \
+-H "Content-Type: text/plain" \
+-d ""
+```
+{% endtab %}
+{% endtabs %}
+

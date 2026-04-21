@@ -99,7 +99,7 @@ Priority Fee是Solana在Base Fee（發送交易的最低成本，交易中每包
 
 ### Keep Alive
 
-請發送 POST 請求到健康檢查端點以保持連線活躍，請求內容如下：
+請發送 POST 請求到健康檢查端點以保持連線活躍，請求示例如下：
 
 {% tabs %}
 {% tab title="CURL" %}

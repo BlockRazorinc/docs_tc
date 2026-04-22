@@ -2,7 +2,7 @@
 
 ### 介紹
 
-BlockRazor是一家Web3交易基礎設施供應商，基於分佈式網絡通信技術和架構為錢包、去中心化交易所、Trading Bot、Searcher和量化交易系統等用戶提供服務。BlockRazor已在Ethereum、BSC、Solana和Base等主流公鏈推出Transaction Submission, Streams和Block Builder等服務，幫助客戶實現交易的最佳執行。
+[BlockRazor](https://blockrazor.io/)是一家Web3交易基礎設施供應商，基於分佈式網絡通信技術和架構為錢包、去中心化交易所、Trading Bot、Searcher和量化交易系統等用戶提供服務。BlockRazor已在Ethereum、BSC、Solana和Base等主流公鏈推出Transaction Submission, Streams和Block Builder等服務，幫助客戶實現交易的最佳執行。
 
 ### Transaction Submission
 

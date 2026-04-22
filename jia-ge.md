@@ -5,7 +5,7 @@ description: 本頁主要介紹BlockRazor產品和服務的定價
 # 價格
 
 {% hint style="info" %}
-* BlockRazor將每個等級的訂閱計劃以鏈為維度進行拆分
+* [BlockRazor](https://blockrazor.io/)將每個等級的訂閱計劃以鏈為維度進行拆分
 * 新註冊用戶默認享有Tier 4等級的全鏈服務(Tier 4-BSC、Tier 4-Solana和Tier 4-Base)
 * 用户可按單鏈进行订阅、升级和续订（訂閱Tier 2-BSC可享有Tier 2等級的BSC服務，而Solana和Base服務仍停留在Tier 4等級）
 * 如订阅Tier 1或Tier 0则默认享有全鏈服務

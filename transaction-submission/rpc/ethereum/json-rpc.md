@@ -50,7 +50,7 @@ curl -X POST -H "Content-Type: application/json" --data '{
 
 
 
-### eth\_sendMevBundle
+### eth\_sendBundle
 
 RPC支持發送Bundle，詳見[Bundle](../../bundle/ethereum/xiang-mu-fang.md)
 

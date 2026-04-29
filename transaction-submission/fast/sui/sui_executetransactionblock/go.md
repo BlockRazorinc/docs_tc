@@ -2,7 +2,7 @@
 
 ### gRPC
 
-[示例地址](https://github.com/BlockRazorinc/sui_go_example/blob/main/example/grpc_example/final_grpc_demo.go)
+[示例地址](https://github.com/BlockRazorinc/sui_go_example/blob/main/example/grpc_example/grpc_demo.go)
 
 ```go
 package main

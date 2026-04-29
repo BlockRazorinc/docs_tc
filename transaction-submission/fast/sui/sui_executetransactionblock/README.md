@@ -18,7 +18,7 @@ Tip方法：可集成[TS](ts.md)或[Go](go.md)中的BlockRazor SDK，調用`AddT
 
 ### 端點
 
-http://sui-fast.blockrazor.io
+sui-fast.blockrazor.io:80
 
 
 
